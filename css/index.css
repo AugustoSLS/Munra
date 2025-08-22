@@ -259,6 +259,7 @@ button:hover {
     }
 
 
+
     .left {
         display: none;
     }
@@ -266,11 +267,7 @@ button:hover {
     .background-header-text {
         right: 0;
         width: 300px;
-        left:50%;
         justify-content: center;
-        -ms-transform: translate(-50%, 0%); /* IE 9 */
-        -webkit-transform: translate(-50%, 0%); /* Chrome, Safari, Opera */
-        transform: translate(-50%, 0%);
     }
 }
 
