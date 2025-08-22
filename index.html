@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="imagex/png" href="img/icon.png">
 
 </head>
-<body>
+<body style="height: var(--app-height);">
     <div class="container">
         <div class="background-header-img">
             <div class="front-header-img"></div>
@@ -66,6 +66,13 @@
 
 </body>
 
+<script>
+  function setAppHeight() {
+    document.documentElement.style.setProperty('--app-height', `${window.innerHeight}px`);
+  }
+  window.addEventListener('resize', setAppHeight);
+  setAppHeight();
+</script>
 <script type="text/javascript" src="js/mainheader.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
 
