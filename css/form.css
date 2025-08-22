@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: hsl(187, 9%, 83%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    background: url(../img/loginbg.png) right no-repeat;
+    border-radius: 0.5rem;
+    width: 45rem;
+    box-shadow: 0px 0px 10px 5px hsla(0, 0%, 0%, 0.5);
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.separator-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.separator-line {
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.form-div {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+    padding: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.form {
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    width: 100%;    
+    padding: 0.5rem 0.75rem;
+    border: 1px solid hsl(220, 13%, 16%);
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: hsl(210, 40%, 98%);
+}
+
+.form-input::placeholder {
+    color: hsl(0, 0%, 48%);
+}
+
+.password-group {
+    position: relative;
+}
+
+.password-input {
+    padding-right: 2.5rem;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+.password-help {
+    font-size: 0.75rem;
+    color: hsla(220, 11%, 84%, 0.562);
+    margin-top: 0.25rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: hsla(0, 0%, 100%, 0.781);
+}
+
+.login-link {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.login-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-link span {
+    color: hsla(220, 11%, 84%, 0.562);
+}
+
+.login-link a:hover {
+    color: hsl(192, 61%, 75%);
+}
+
+/* --- */
+
+.form-login {
+    margin-bottom: 2rem;
+}
+
+#sexo {
+    padding: .5rem 1rem;
+    border: 1px solid hsl(220, 13%, 16%);
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+}
+
+#sexo:focus {
+    outline: none;
+    border-color: hsl(210, 40%, 98%);
+}
+
+#sexo::placeholder {
+    color: hsl(0, 0%, 48%);
+}
