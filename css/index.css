@@ -4,21 +4,9 @@
     border: 0;
 }
 
-:root {
-  --app-height: 100%;
-}
-
-@supports (-webkit-touch-callout: none) {
-  :root {
-    --app-height: 100vh;
-  }
-}
 
 body {
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+    height: 100%;
     margin-bottom: 2000px;
 }
 
