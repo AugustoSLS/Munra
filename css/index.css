@@ -268,9 +268,9 @@ button:hover {
         width: 300px;
         left:50%;
         justify-content: center;
-        -ms-transform: translate(-50%,-50%); /* IE 9 */
-        -webkit-transform: translate(-50%,-50%); /* Chrome, Safari, Opera */
-        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%, 0%); /* IE 9 */
+        -webkit-transform: translate(-50%, 0%); /* Chrome, Safari, Opera */
+        transform: translate(-50%, 0%);
     }
 }
 
