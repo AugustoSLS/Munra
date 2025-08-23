@@ -81,7 +81,7 @@ button:hover {
 
 .background-header-text h2 {
     margin-bottom: 1.5rem;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -271,8 +271,8 @@ button:hover {
     }
 
     .iphone{
-        -webkit-transform: translate(15%, 15%);
-        transform: translate(15%, 15%);
+        -webkit-transform: translate(20%, 0);
+        transform: translate(20%, 0);
     }
 }
 
