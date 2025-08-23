@@ -267,12 +267,13 @@ button:hover {
     .background-header-text {
         right: 0;
         width: 300px;
+        font-size: 30px;
         justify-self: center;
     }
 
     .iphone{
-        -webkit-transform: translate(20%, 0);
-        transform: translate(20%, 0);
+        -webkit-transform: translate(17%, 0);
+        transform: translate(17%, 0);
     }
 }
 
