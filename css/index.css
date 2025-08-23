@@ -81,11 +81,12 @@ button:hover {
 
 .background-header-text h2 {
     margin-bottom: 1.5rem;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .background-header-text p {
+    font-size: 20px;
     margin-bottom: 1.5rem;
 }
 
@@ -270,9 +271,17 @@ button:hover {
         justify-self: center;
     }
 
+    .background-header-text h2{
+        font-size: 30px
+    }
+
+    .background-header-text p{
+        font-size: 20px
+    }
+
     .iphone{
-        -webkit-transform: translate(17%, 0);
-        transform: translate(17%, 0);
+        -webkit-transform: translate(20%, 0);
+        transform: translate(20%, 0);
     }
 }
 
