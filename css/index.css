@@ -81,7 +81,7 @@ button:hover {
 
 .background-header-text h2 {
     margin-bottom: 1.5rem;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -267,7 +267,6 @@ button:hover {
     .background-header-text {
         right: 0;
         width: 300px;
-        font-size: 30px;
         justify-self: center;
     }
 
