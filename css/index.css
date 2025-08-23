@@ -271,6 +271,14 @@ button:hover {
     }
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 600px){
+
+    .background-header-text {
+        -webkit-transform: translate(50%, 50%);
+        transform: translate(50%, 50%);
+    }
+}
+
 @media screen and (min-width: 601px) {
 
     h1 {
