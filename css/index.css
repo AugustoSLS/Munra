@@ -278,6 +278,10 @@ button:hover {
         font-size: 20px
     }
 
+    .iphonebtnenu {
+        transform: translateY(2px);
+    }
+
     .iphonelogo {
         -webkit-transform: translate(-52%, -60%);
         transform: translate(-52%, -60%);
@@ -375,6 +379,20 @@ button:hover {
         width: 400px;
         justify-self: center;
     }
+
+    .iphonebtnenu {
+        transform: translateY(2px);
+    }
+
+    .iphonelogo {
+        -webkit-transform: translate(-52%, -60%);
+        transform: translate(-52%, -60%);
+    }
+
+    .iphone{
+        -webkit-transform: translate(22%, 0);
+        transform: translate(22%, 0);
+    }
 }
 
 /* Tablets */
@@ -459,10 +477,38 @@ button:hover {
         width: 500px;
         justify-self: center;
     }
+
+    .iphonebtnenu {
+        transform: translateY(2px);
+    }
+
+    .iphonelogo {
+        -webkit-transform: translate(-52%, -60%);
+        transform: translate(-52%, -60%);
+    }
+
+    .iphone{
+        -webkit-transform: translate(22%, 0);
+        transform: translate(22%, 0);
+    }
 }
 
 /* Mini-laptops */
 
 @media screen and (max-width: 992px) {
     
+    .iphonebtnenu {
+        transform: translateY(2px);
+    }
+
+    .iphonelogo {
+        -webkit-transform: translate(-52%, -60%);
+        transform: translate(-52%, -60%);
+    }
+
+    .iphone{
+        -webkit-transform: translate(22%, 0);
+        transform: translate(22%, 0);
+    }
+
 }
