@@ -278,7 +278,7 @@ button:hover {
         font-size: 20px
     }
 
-    .iphonebtnenu {
+    .iphonebtnmenu {
         transform: translateY(2px);
     }
 
@@ -380,7 +380,7 @@ button:hover {
         justify-self: center;
     }
 
-    .iphonebtnenu {
+    .iphonebtnmenu {
         transform: translateY(2px);
     }
 
@@ -478,7 +478,7 @@ button:hover {
         justify-self: center;
     }
 
-    .iphonebtnenu {
+    .iphonebtnmenu {
         transform: translateY(2px);
     }
 
@@ -497,7 +497,7 @@ button:hover {
 
 @media screen and (max-width: 992px) {
     
-    .iphonebtnenu {
+    .iphonebtnmenu {
         transform: translateY(2px);
     }
 
