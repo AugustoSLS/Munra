@@ -64,8 +64,7 @@ button:hover {
 .front-header-img {
     width: 100%;
     height: 100%;  
-    background-color: #000000;
-    opacity: .5;
+    background-color: rgba(0, 0, 0, 0.55);
     position: absolute;
 }
 
@@ -279,8 +278,9 @@ button:hover {
         font-size: 20px
     }
 
-    .iphone-logo {
-        transform: translate(-50%, -5%);
+    .iphonelogo {
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
     }
 
     .iphone{
