@@ -279,7 +279,7 @@ button:hover {
     }
 
     .iphonelogo {
-        -webkit-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -20%);
         transform: translate(0%, -50%);
     }
 
